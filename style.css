@@ -1,0 +1,116 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: burlywood;
+    text-decoration: none;
+    font-family: 'Sansita Swashed';
+    font-size: 20px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+.form-container {
+    margin-top: 70px; 
+}
+
+body {
+    background-image: url(https://c.wallhere.com/photos/7f/da/anime_girls_long_hair_Hatsune_Miku_Vocaloid_closed_eyes_twintails_dress_simple_background-2256646.jpg!d); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#P1 {
+    color: burlywood;
+    font-family: 'Sansita Swashed';
+    font-size: 35px;
+    text-align: center;
+    text-shadow: -1px -1px 0 #784223,  
+                   1px -1px 0 #000,   
+                  -1px 1px 0 #000,   
+                   1px 1px 0 #000;    
+}
+
+#P2 {
+    color: rgb(231, 226, 219);
+    font-family: 'EB Garamond';
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    text-shadow: 2px 2px 0 #000;
+    letter-spacing: 1px;
+}
+
+.odd {
+    color: rgb(232, 202, 163);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container {
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    padding: 10px; 
+    width: 400px; 
+    margin: auto; 
+    background-color: rgba(215, 225, 166, 0.23); 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 100%; 
+    padding: 8px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 60%;
+    padding: 10px;
+    background-color: #e2cb9f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+}

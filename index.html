@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Miku Festival</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Registration</a></li>
+            <li><a href="IndexSched.html">Schedule</a></li>
+        </ul>
+    </nav>
+
+    <div class="form-container">
+        <h1 id="P1">MIKU FESTIVAL</h1>
+        <p id="P2">Where all the mellifluous elements originate</p>
+        <form id="registration-form">
+            <label for="Name" class="odd">Name</label>
+            <input type="text" id="Name" minlength="3" maxlength="15" placeholder="Surname, First name, M.I.">
+
+            <label for="E-mail" class="odd">E-mail</label>
+            <input type="email" id="email" placeholder="email@gmail.com">
+
+            <label for="Password" class="odd">Password</label>
+            <input type="password" id="Password" placeholder="Password">
+
+            <label for="bday" class="odd">Birthdate</label>
+            <input type="date" id="bday" placeholder="dd/mm/yyyy">
+
+            <input type="submit"> 
+        </form>
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="index.js"></script>
+</body>
+</html>
